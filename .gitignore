@@ -209,6 +209,9 @@ package-lock.json
 /Server/data/postgresql
 /Swarm/data/postgresql
 
+# Redis
+/Server/data/redis/redis_data
+
 # Created by https://www.toptal.com/developers/gitignore/api/intellij+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij+all
 

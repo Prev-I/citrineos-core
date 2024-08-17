@@ -59,7 +59,10 @@ export function createDockerConfig() {
     },
     util: {
       cache: {
-        memory: true,
+        redis: {
+          host: 'redis',
+          port: 6379,
+        },
       },
       messageBroker: {
         amqp: {
